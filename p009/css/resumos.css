@@ -1,0 +1,77 @@
+.resumos{
+    width: 45%;
+    background-color: #ebebeb;
+    padding: 10px;
+    padding-bottom: 35px;
+    border-left: 1px solid #deddde;
+}
+
+.resumos ul li{
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.resumos ul li:last-child{
+    border: none;
+}
+
+.resumos ul .detalhes{
+    width: 80%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li .detalhes h3{
+    font-family: 'muliextrabold';
+    color: #777879;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+ul li .detalhes small{
+    font-family: 'muliextralight_italic';
+    font-size: 10px;
+    color: #4a4a4a;
+    margin-bottom: 4px;
+}
+ul li .detalhes span{
+    font-family: 'muliextrabold';
+    font-size: 10px;
+    color: #9c9c9c;
+}
+ul li .preco{
+    font-family: 'muliextrabold';
+    font-size: 12px;
+    color: #777879;
+}
+
+
+/*table*/
+
+.resumos table{
+    width: 100%;
+    border-top: 1px solid #d6d4d7;
+    border-spacing: 0;
+    /*zerar espaços da tabela para juntar as bordas do tfoot*/
+    color: #777879;
+    font-size: 12px;
+    margin-top: 47px;
+}
+
+.resumos table th{
+    text-align: left;
+}
+.resumos table td{
+    text-align: right;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.resumos table tfoot *{
+    border-top: 1px solid #d6d4d7;
+    font-family: 'muliextrabold';
+    padding-top: 7px;
+}
+/* "*" pega todos os elementos internos */

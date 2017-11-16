@@ -1,0 +1,58 @@
+body{
+    background-color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+}
+
+td input{
+    padding: 0px;
+    margin: 0;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 15px;
+    padding-bottom: 0;
+    text-transform: capitalize;
+}
+
+th{
+    font-weight: 500;
+    font-size: 13px;
+
+}
+td{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 35px
+}
+
+tr:hover, td:hover{
+    background-color: #eeeeee;
+}
+
+.tabela{
+    background-color: rgba(255, 255, 255, 0.99);
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(100, 100, 100, 0.99);
+    width: 1000px;
+}
+
+table{
+	border-spacing: 0px;
+}
+
+.rodape{
+    margin-left: 600px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.r2{
+    margin: 0 20px;
+}
+
+img{
+    margin: 0 15px;
+}

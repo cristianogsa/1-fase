@@ -1,0 +1,176 @@
+body{
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing:antialiased;
+}
+
+header h1{
+    margin: -10px;
+    display: inline-block;
+    background: url(../p8-img/nucliot-logo.png) no-repeat center;
+    width: 120px;
+    height: 22px;
+    background-color: #151524;
+    padding: 20px 40px;
+}
+
+header h1 span{
+    visibility: hidden;
+}
+
+header#logo{
+	background-color: #242536;
+    padding: 10px;
+}
+
+span#logo{
+    float: right;
+    color: #fff;
+    background-color: #38CB60;
+    border-radius: 55%;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+aside{
+    float: left;
+    background-color: #242536;
+    height:820px;
+    width: 200px;
+}
+aside ul{
+    margin-top: 0; 
+    padding: 0;
+}
+
+aside ul li{
+	list-style: none;
+    padding:15px 10px;
+   ;
+}
+aside ul li:hover{
+    background-color: #151524;
+    border-left: 4px solid #FFB946;
+    padding-left: 7px;
+}
+aside ul li a{
+    text-decoration: none;
+    color:#fff;
+    margin-left: 15px;
+    font-size: 14px;
+}
+aside ul li img{
+   margin-left: 5px;
+}
+
+span.lado{
+    color: #fff;
+    float: right;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/**/
+
+section#form-sec{
+    background-color: #F5F5F5;
+}
+
+header#forms{
+    padding: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+header#forms ul{
+    margin-left: 160px;
+}
+
+header#forms ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+header#forms ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size: 14px;
+}
+header#forms ul li a:hover{
+    color:#FFB946;
+    border-bottom: 2px solid #FFB946;
+    padding-bottom: 20px;
+}
+
+
+/**/
+
+div#personal-form{
+    padding: 20px;
+    margin:15px 220px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+    background-color: #fff;
+    width: 100%;
+}
+h2{
+    font-size: 20px;
+}
+
+form{
+    width: 300px;
+}
+
+input{
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+::-webkit-input-placeholder{
+    padding-left: 10px;
+}
+
+form input#first-input{
+    margin-bottom: 0;
+}
+
+form span{
+    font-size: 12px;
+}
+form input#second-input{
+    margin-top: 40px;
+}
+
+select{
+    display: block;
+    margin-bottom: 10px;
+    width: 304px;
+    height: 35px;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+
+input.check{
+    display: inline;
+    width: auto;
+    height:auto;
+     color: #3aca60;
+}
+
+
+a.button{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    background-color: #3aca60;
+    color:#fff;
+    padding: 10px;
+    border-radius: 4px;
+}

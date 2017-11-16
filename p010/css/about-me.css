@@ -1,0 +1,35 @@
+.about-me{
+   
+}
+
+
+.about-me header{
+    display: flex;
+    border-bottom: 1px solid;
+    color: #d0021b;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-family: 'latoblack';
+    font-size: 18px;
+}
+
+.about-me h3{
+    font-family: 'latobold';
+    font-size: 17px;
+    color: #3a3c40;
+}
+
+.about-me span{
+    margin-right: 10px;
+}
+
+.about-me span.nivel2{
+    display: block;
+    color: #3a3c40;
+}
+
+.about-me span.nivel3{
+    display: block;
+    color: #3a3c40;
+    opacity: .8;
+}

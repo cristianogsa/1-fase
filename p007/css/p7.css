@@ -1,0 +1,257 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #000;
+}
+
+section#inicio{
+	background: url(../img/fundo.png) no-repeat;
+    height: 575px;
+    width: 100%;
+}
+
+h1{
+	background-image: url(../img/logo-titum.png);
+	background-repeat: no-repeat;
+	padding: 20px;
+    padding-right: 75px;
+    display: inline-block;
+    margin-left: 150px;
+}
+h1 span{
+	visibility: hidden;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline;
+    padding: 10px 20px;
+}
+
+nav ul li:hover{
+    border: 1px solid #fff;
+    padding: 9px 19px;/* 9px + 1 da borda = 10 padding sem hover*/
+}
+
+nav ul li a{
+	text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+div#innerInicio{
+    color: #fff;
+    text-align: center;
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+div#innerInicio h2{
+    font-size: 45px;
+    margin: 0;
+    font-weight: 400;
+}
+div#innerInicio p{
+    font-size: 31px;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.saibaMais{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff3d7f;
+    padding: 20px 120px;
+    border-radius: 3px;
+    font-weight: 300;
+    box-shadow: 0 6px 0 #a32751;
+}
+
+.saibaMais:active {
+    position: relative;
+    top: 3px;  
+    box-shadow: none;  
+}
+
+/* CONHEÇA*/
+#conheca{
+    background-color: #fff;
+    margin: 0 auto;
+    height: 830px;
+    width: 100%;
+}
+
+img.teen{
+    margin: 40px 50px;
+}
+.innerConheca{
+    margin-left: 70px;
+}
+.innerConheca h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.innerConheca p{
+    font-size: 18px;
+    font-weight: 300;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.quero{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff3d7f;
+    padding: 15px 80px;
+    border-radius: 3px;
+    font-weight: 300;
+    box-shadow: 0 6px 0 #a32751;
+}
+
+.quero:active {
+    position: relative;
+    top: 3px;  
+    box-shadow: none;  
+}
+
+
+/* COMENTARIO*/
+section#comentario{
+    background-color: #ebe8fb;
+    border-top: 3px solid #511099;
+    padding: 40px;
+}
+
+.coment-imagem{
+    margin: 40px 0px 30px 120px;
+}
+.pComent{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    width: 400px;
+    text-align: center;
+}
+.nome{
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight:bolder;
+    margin-left: 150px;
+}
+
+
+/*CONVITE*/
+
+section#convite{
+    /*apenas background quando for img + repeat*/
+    background: url(../img/fundo-convite.png) no-repeat;
+    height: 294px;
+}
+
+.conviteDiv   {
+    width: 510px;
+    background-color: #ffffff;
+    margin: 105px 220px;
+    opacity: .8;
+    position: absolute; 
+}
+form{
+    padding: 20px;
+}
+
+input{
+    display: inline;
+    width: 340px;
+    background: transparent;
+    border: none;
+    color: #000;/*texto digitado*/
+    margin: 10px;
+}
+
+/*texto placeholder*/
+::-webkit-input-placeholder{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a img{
+    position: absolute;
+}
+
+footer{
+    width: 1000px;
+    background-color: #2a0157;
+    margin-top: 0px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 500px) {
+    
+    body{
+    width: 1000px;
+}
+    h1{
+        margin: 10px 0 0 140px ;
+    }
+    nav {
+        float: right;
+        margin-right: 140px;
+        margin-top: 20px;
+	}
+    nav ul li{
+        margin: 10px;
+    }
+    div#innerInicio{
+        margin: 80px 400px 0 0px;
+        float: none;
+    }
+    
+    /* CONHECA*/
+    #conheca{
+        height: 500px;
+    }
+
+    img.teen{
+        float: left;
+        margin: 50px 0 50px 110px;
+    }
+    .innerConheca{
+        float: left;
+        margin-top: 90px;
+        margin-left: 50px;
+    }
+    .innerConheca p{
+        width: 350px;
+    }
+    
+    /* COMENTARIO*/
+    section#comentario{
+        text-align: center;
+    }
+    .coment-imagem{
+        margin: 40px 0 30px 0;
+    }
+    .pComent{
+        width: 680px;
+        margin: 0 auto;
+    }
+    .nome{
+        margin-top: 0px;
+        margin-left: 0;
+    }
+    
+}

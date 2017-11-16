@@ -1,0 +1,31 @@
+.topo{
+	margin: 40px auto;
+	text-align: center;
+}
+
+.pColuna{
+	width: 300px;
+	padding: 0 10px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.rodape{
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #4a4a4a;
+	font-weight: 500;
+	webkit-font-smooth:antialiased;
+}
+
+@media screen and (min-width: 500px) {
+	.container{
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.pColuna{
+		float: left;
+	}
+}

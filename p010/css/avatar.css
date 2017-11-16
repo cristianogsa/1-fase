@@ -1,0 +1,94 @@
+@import url(about-me.css);
+
+.container{
+    padding: 0 5%;
+    font-family: 'latoregular';
+    font-size: 15px;
+}
+
+.avatar{
+   text-align: center;
+    background-color: #3a3c40;
+}
+
+.card{
+    background-color: #3a3c40;
+    box-shadow: none;
+    margin-top: 40px;
+}
+
+.card h1{
+    color: #f5a623;
+    font-size: 24px;
+    font-family: 'latobold';
+}
+.card h2{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'latobold';
+    padding-top: 5px;
+}
+
+.card .button{
+    background-color: #f6a623;
+    font-size: 14px;
+    font-family: 'latobold';
+    width: 140px;
+    height: 47px;
+    box-shadow: 0 4px 0 0 #d4901f;
+}
+
+.card .button:hover{
+     background-color: #f6a623;
+}
+
+.card .button:active{
+     background-color:#d4901f;
+    top: 2px;
+}
+
+.card-content{
+    padding: 0;
+}
+.card-content .social a i{
+    background-color: #3a3c40;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+.conhecimento{
+    padding: 50px 40px;
+}
+.conhecimento h2{
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'latobold';
+}
+
+.conhecimento h3{
+    color: #8fa4af;
+    text-align: left;
+    font-size: 12px;
+}
+
+progress[value]::-webkit-progress-bar{
+    background-color: #eee;
+}
+progress[value]::-webkit-progress-value{
+  background-color: #eeb65a;
+  border-radius: 2px;
+}
+
+progress{
+    background-color: #ccc;
+}
+
+progress[value]::-moz-progress-bar{
+      background-color: orange;
+}
+
+
